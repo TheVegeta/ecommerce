@@ -10,6 +10,14 @@
 
 [Heroku](https://pacific-temple-41001.herokuapp.com)
 
+# Login info
+
+`user email: test@mail.com`\
+`user password: test@123`
+
+`admin email: admin@mail.com`\
+`admin password: admin@123`
+
 # Features
 
 - Full featured shopping cart
