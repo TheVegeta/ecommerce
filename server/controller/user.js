@@ -15,9 +15,9 @@ const registerController = async (req, res) => {
         token: getToken(newUser),
       })
     )
-    .catch(() =>
-      res.status(400).json({ success: false, msg: "email alrady exist" })
-    );
+    .catch((err) => {
+      res.status(400).json({ success: false, msg: "email alrady exist" });
+    });
 };
 
 const loginController = async (req, res) => {

@@ -93,7 +93,13 @@ const ManageProduct = ({ history }) => {
 
   return (
     <Container>
-      <Table striped bordered hover className="text-capitalize text-center">
+      <Table
+        responsive
+        striped
+        bordered
+        hover
+        className="text-capitalize text-center"
+      >
         <thead>
           <tr>
             <th>no</th>

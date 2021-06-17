@@ -63,7 +63,13 @@ const RenderTable = ({ getPayments, no, info }) => {
       <Modal size="lg" show={show} onHide={toggleShow}>
         <Modal.Header closeButton>Item Details</Modal.Header>
         <Modal.Body>
-          <Table striped bordered hover className="text-capitalize text-center">
+          <Table
+            responsive
+            striped
+            bordered
+            hover
+            className="text-capitalize text-center"
+          >
             <thead>
               <tr>
                 <th>no</th>

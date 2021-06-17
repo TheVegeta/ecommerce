@@ -50,8 +50,6 @@ const savePayments = async (req, res) => {
       .save()
       .then(() => res.json({ success: true, msg: "Payment Successful" }));
   } catch (err) {
-    console.log(err);
-
     res.status(400).json({
       message: "Payment Failed",
       success: false,
